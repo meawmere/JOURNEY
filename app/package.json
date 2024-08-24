@@ -1,0 +1,19 @@
+{
+  "name": "journay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "cls && node index.js"
+  },
+  "author": "meawmere",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "sqlite3": "^5.1.7"
+  }
+}

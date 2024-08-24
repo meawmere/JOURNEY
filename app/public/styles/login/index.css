@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #1c1c29;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    display: flex;
+    justify-content: right;
+    background-color: #14141d;
+}
+
+.link {
+    margin-right: 20px;
+}

@@ -1,0 +1,60 @@
+{
+  "colors": [
+    "[foreground] rgb(232, 1, 40)",
+    "[background] #13131c",
+    "[head] 101017"
+  ],
+  "get": {
+    "/login": {
+      "buttons": [
+        "submit"
+      ],
+      "input": [
+        "nickname",
+        "password"
+      ],
+      "text": [
+        "Войти в аккаунт",
+        "Игровой никнейм",
+        "Пароль"
+      ],
+      "post": [
+        "/"
+      ]
+    },
+    "/register": {
+      "buttons": [
+        "submit"
+      ],
+      "input": [
+        "nickname",
+        "password"
+      ],
+      "text": [
+        "Зарегистрировать аккаунт",
+        "Игровой никнейм",
+        "Пароль"
+      ],
+      "post": [
+        "/"
+      ]
+    },
+    "/player/:name": {
+      "buttons": [
+        "add_to_friend/delete_from_friend"
+      ],
+      "text": [
+        ":name",
+        ":date_register",
+        ":description"
+      ],
+      "links": [
+        ":steam",
+        ":name/statistics"
+      ],
+      "post" : [
+        "/player/:name"
+      ]
+    }
+  }
+}
